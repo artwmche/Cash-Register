@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87019D2A217AA9D500EA4C79 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87019D29217AA9D500EA4C79 /* HistoryTableViewController.m */; };
+		87019D2D217AAF5100EA4C79 /* RestockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87019D2C217AAF5100EA4C79 /* RestockViewController.m */; };
+		87CEB397217CC5A70092E576 /* HistoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CEB396217CC5A70092E576 /* HistoryDetailViewController.m */; };
 		87F2C5AF217A1D0900CC3AEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5AE217A1D0900CC3AEA /* AppDelegate.m */; };
 		87F2C5B2217A1D0900CC3AEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5B1217A1D0900CC3AEA /* ViewController.m */; };
 		87F2C5B5217A1D0900CC3AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F2C5B3217A1D0900CC3AEA /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		87F2C5BD217A1D0B00CC3AEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5BC217A1D0B00CC3AEA /* main.m */; };
 		87F2C5C7217A1D0C00CC3AEA /* Cash_RegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5C6217A1D0C00CC3AEA /* Cash_RegisterTests.m */; };
 		87F2C5D2217A1D0C00CC3AEA /* Cash_RegisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5D1217A1D0C00CC3AEA /* Cash_RegisterUITests.m */; };
+		87F2C5E1217A1FE500CC3AEA /* ResourceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5E0217A1FE500CC3AEA /* ResourceData.m */; };
+		87F2C5E4217A43DE00CC3AEA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2C5E3217A43DE00CC3AEA /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87019D28217AA9D500EA4C79 /* HistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		87019D29217AA9D500EA4C79 /* HistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		87019D2B217AAF5100EA4C79 /* RestockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestockViewController.h; sourceTree = "<group>"; };
+		87019D2C217AAF5100EA4C79 /* RestockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestockViewController.m; sourceTree = "<group>"; };
+		87CEB395217CC5A70092E576 /* HistoryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDetailViewController.h; sourceTree = "<group>"; };
+		87CEB396217CC5A70092E576 /* HistoryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailViewController.m; sourceTree = "<group>"; };
 		87F2C5AA217A1D0900CC3AEA /* Cash Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cash Register.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F2C5AD217A1D0900CC3AEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87F2C5AE217A1D0900CC3AEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		87F2C5CD217A1D0C00CC3AEA /* Cash RegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cash RegisterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F2C5D1217A1D0C00CC3AEA /* Cash_RegisterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cash_RegisterUITests.m; sourceTree = "<group>"; };
 		87F2C5D3217A1D0C00CC3AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F2C5DF217A1FE500CC3AEA /* ResourceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ResourceData.h; path = Data/ResourceData.h; sourceTree = "<group>"; };
+		87F2C5E0217A1FE500CC3AEA /* ResourceData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ResourceData.m; path = Data/ResourceData.m; sourceTree = "<group>"; };
+		87F2C5E2217A43DE00CC3AEA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		87F2C5E3217A43DE00CC3AEA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +116,25 @@
 		87F2C5AC217A1D0900CC3AEA /* Cash Register */ = {
 			isa = PBXGroup;
 			children = (
+				87CEB396217CC5A70092E576 /* HistoryDetailViewController.m */,
+				87CEB395217CC5A70092E576 /* HistoryDetailViewController.h */,
 				87F2C5AD217A1D0900CC3AEA /* AppDelegate.h */,
 				87F2C5AE217A1D0900CC3AEA /* AppDelegate.m */,
 				87F2C5B0217A1D0900CC3AEA /* ViewController.h */,
 				87F2C5B1217A1D0900CC3AEA /* ViewController.m */,
 				87F2C5B3217A1D0900CC3AEA /* Main.storyboard */,
+				87019D2B217AAF5100EA4C79 /* RestockViewController.h */,
+				87019D2C217AAF5100EA4C79 /* RestockViewController.m */,
+				87019D28217AA9D500EA4C79 /* HistoryTableViewController.h */,
+				87019D29217AA9D500EA4C79 /* HistoryTableViewController.m */,
 				87F2C5B6217A1D0B00CC3AEA /* Assets.xcassets */,
 				87F2C5B8217A1D0B00CC3AEA /* LaunchScreen.storyboard */,
 				87F2C5BB217A1D0B00CC3AEA /* Info.plist */,
 				87F2C5BC217A1D0B00CC3AEA /* main.m */,
+				87F2C5DF217A1FE500CC3AEA /* ResourceData.h */,
+				87F2C5E0217A1FE500CC3AEA /* ResourceData.m */,
+				87F2C5E2217A43DE00CC3AEA /* SecondViewController.h */,
+				87F2C5E3217A43DE00CC3AEA /* SecondViewController.m */,
 			);
 			path = "Cash Register";
 			sourceTree = "<group>";
@@ -262,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87019D2A217AA9D500EA4C79 /* HistoryTableViewController.m in Sources */,
+				87019D2D217AAF5100EA4C79 /* RestockViewController.m in Sources */,
+				87F2C5E4217A43DE00CC3AEA /* SecondViewController.m in Sources */,
 				87F2C5B2217A1D0900CC3AEA /* ViewController.m in Sources */,
+				87CEB397217CC5A70092E576 /* HistoryDetailViewController.m in Sources */,
 				87F2C5BD217A1D0B00CC3AEA /* main.m in Sources */,
 				87F2C5AF217A1D0900CC3AEA /* AppDelegate.m in Sources */,
+				87F2C5E1217A1FE500CC3AEA /* ResourceData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
